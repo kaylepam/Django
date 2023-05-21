@@ -7,7 +7,7 @@ class PostList(ListView):
     ordering ='-pk'
     
 class PostDetail(DetailView):
-  model = Post  
+    model = Post
 
     
 """
